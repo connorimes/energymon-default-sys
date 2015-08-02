@@ -15,3 +15,6 @@ libc = "0.1"
 
 [dependencies.energymon-sys]
 git = "https://github.com/connorimes/energymon-sys.git"
+
+[build-dependencies]
+pkg-config = "0.3.2"

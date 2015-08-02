@@ -1,3 +1,5 @@
+extern crate pkg_config;
+
 fn main() {
-    println!("cargo:rustc-link-lib=energymon-default");
+    pkg_config::find_library("energymon-default").unwrap();
 }

@@ -12,7 +12,8 @@ The latest `EnergyMon` C libraries can be found at
 ## Dependencies
 
 In order to use the `energymon-default-sys` crate, you must have the
-`energymon-default` library installed to the system.
+`energymon-default` library installed to the system where it can be found by
+`pkg-config`.
 
 This crate depends on the `energymon-sys` crate.
 
