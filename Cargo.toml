@@ -6,7 +6,7 @@ description = "FFI bindings to libenergymon-default"
 license = "MIT"
 homepage = "https://github.com/connorimes/energymon-default-sys"
 repository = "https://github.com/connorimes/energymon-default-sys"
-keywords = ["energymon", "energymon-default", "energy", "monitoring", "bindings"]
+keywords = ["energymon", "default", "energy", "monitoring", "bindings"]
 
 build = "build.rs"
 
