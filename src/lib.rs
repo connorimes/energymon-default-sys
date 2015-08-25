@@ -1,3 +1,4 @@
+//! FFI bindings for `energymon-default.h`.
 
 extern crate libc;
 extern crate energymon_sys;
