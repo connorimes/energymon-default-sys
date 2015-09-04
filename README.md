@@ -7,7 +7,7 @@ not define higher-level abstractions over the native `energymon-default`
 library functions.
 
 The latest `EnergyMon` C libraries can be found at
-[https://github.com/connorimes/energymon](https://github.com/connorimes/energymon).
+[https://github.com/energymon/energymon](https://github.com/energymon/energymon).
 
 ## Dependencies
 
@@ -22,5 +22,5 @@ Add `energymon-default-sys` as a dependency in `Cargo.toml`:
 
 ```toml
 [dependencies.energymon-sys]
-git = "https://github.com/connorimes/energymon-default-sys.git"
+git = "https://github.com/energymon/energymon-default-sys.git"
 ```
