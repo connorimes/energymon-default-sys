@@ -1,7 +1,8 @@
 # EnergyMon Rust Bindings
 
 The `energymon-default-sys` crate provides declarations and linkage for the
-`energymon-default` C library.
+`energymon-default` C library (specifically the static lib:
+`energymon-default-static`).
 Following the *-sys package conventions, the `energymon-default-sys` crate does
 not define higher-level abstractions over the native `energymon-default`
 library functions.
@@ -21,6 +22,6 @@ This crate depends on the `energymon-sys` crate.
 Add `energymon-default-sys` as a dependency in `Cargo.toml`:
 
 ```toml
-[dependencies.energymon-sys]
+[dependencies.energymon-default-sys]
 git = "https://github.com/energymon/energymon-default-sys.git"
 ```
