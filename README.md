@@ -12,7 +12,7 @@ The latest `EnergyMon` C libraries can be found at
 
 ## Dependencies
 
-In order to use the `energymon-default-sys` crate, you must have the
+In order to use the `energymon-default-sys` crate, you should have the
 `energymon-default` library installed to the system where it can be found by
 `pkg-config`.
 
@@ -25,3 +25,14 @@ Add `energymon-default-sys` as a dependency in `Cargo.toml`:
 [dependencies.energymon-default-sys]
 git = "https://github.com/energymon/energymon-default-sys.git"
 ```
+
+If an implementation is not found by `pkg-config`, one is compiled.
+In this case, the implementation to compile and use can be specified by
+setting the environment variable `ENERGYMON_DEFAULT_IMPL`, e.g.:
+
+```sh
+ENERGYMON_DEFAULT_IMPL=rapl cargo build
+```
+
+Otherwise a dummy implementation is used.
+See the `energymon` documentation for acceptable values.
